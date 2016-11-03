@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6212FF1C077099001F787E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6212FE1C077099001F787E /* Carbon.framework */; };
+		BC6213011C0770A6001F787E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6213001C0770A6001F787E /* CoreServices.framework */; };
+		BC6213031C0770B3001F787E /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6213021C0770B3001F787E /* AudioUnit.framework */; };
+		BC6213051C0770BF001F787E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6213041C0770BF001F787E /* AudioToolbox.framework */; };
+		BC6213071C0770D7001F787E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6213061C0770D7001F787E /* CoreAudio.framework */; };
+		BC6213091C0770ED001F787E /* libfftw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6213081C0770ED001F787E /* libfftw3.a */; };
+		BC62130B1C07710B001F787E /* libportaudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC62130A1C07710B001F787E /* libportaudio.a */; };
+		BCBB738A1C0DD88300362741 /* dtw_continuous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCBB73881C0DD88300362741 /* dtw_continuous.cpp */; };
+		BCBB738F1C0DD9B000362741 /* MFCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCBB738D1C0DD9B000362741 /* MFCC.cpp */; };
+		BCBB73921C0DDA1900362741 /* readwave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCBB73901C0DDA1900362741 /* readwave.cpp */; };
+		BCD9034F1C04B61E00361838 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCD9034D1C04B61E00361838 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCA025B01C0482DA00BE8CC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC6212FE1C077099001F787E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		BC6213001C0770A6001F787E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		BC6213021C0770B3001F787E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		BC6213041C0770BF001F787E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC6213061C0770D7001F787E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		BC6213081C0770ED001F787E /* libfftw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfftw3.a; sourceTree = "<group>"; };
+		BC62130A1C07710B001F787E /* libportaudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libportaudio.a; path = ../../../Documents/speech/portaudio/lib/.libs/libportaudio.a; sourceTree = "<group>"; };
+		BCA025B21C0482DA00BE8CC2 /* continus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = continus; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBB73881C0DD88300362741 /* dtw_continuous.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dtw_continuous.cpp; sourceTree = SOURCE_ROOT; };
+		BCBB73891C0DD88300362741 /* dtw_continuous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtw_continuous.h; sourceTree = SOURCE_ROOT; };
+		BCBB738B1C0DD98800362741 /* portaudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = portaudio.h; sourceTree = SOURCE_ROOT; };
+		BCBB738C1C0DD9B000362741 /* fftw3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fftw3.h; sourceTree = SOURCE_ROOT; };
+		BCBB738D1C0DD9B000362741 /* MFCC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MFCC.cpp; sourceTree = SOURCE_ROOT; };
+		BCBB738E1C0DD9B000362741 /* MFCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCC.h; sourceTree = SOURCE_ROOT; };
+		BCBB73901C0DDA1900362741 /* readwave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readwave.cpp; sourceTree = SOURCE_ROOT; };
+		BCBB73911C0DDA1900362741 /* readwave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readwave.h; sourceTree = SOURCE_ROOT; };
+		BCD9034D1C04B61E00361838 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA025AF1C0482DA00BE8CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6213091C0770ED001F787E /* libfftw3.a in Frameworks */,
+				BC6213071C0770D7001F787E /* CoreAudio.framework in Frameworks */,
+				BC6213051C0770BF001F787E /* AudioToolbox.framework in Frameworks */,
+				BC62130B1C07710B001F787E /* libportaudio.a in Frameworks */,
+				BC6213031C0770B3001F787E /* AudioUnit.framework in Frameworks */,
+				BC6213011C0770A6001F787E /* CoreServices.framework in Frameworks */,
+				BC6212FF1C077099001F787E /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA025A91C0482DA00BE8CC2 = {
+			isa = PBXGroup;
+			children = (
+				BC6213081C0770ED001F787E /* libfftw3.a */,
+				BC62130A1C07710B001F787E /* libportaudio.a */,
+				BC6213061C0770D7001F787E /* CoreAudio.framework */,
+				BC6213041C0770BF001F787E /* AudioToolbox.framework */,
+				BC6213021C0770B3001F787E /* AudioUnit.framework */,
+				BC6213001C0770A6001F787E /* CoreServices.framework */,
+				BC6212FE1C077099001F787E /* Carbon.framework */,
+				BCA025B41C0482DA00BE8CC2 /* continus */,
+				BCA025B31C0482DA00BE8CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA025B31C0482DA00BE8CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA025B21C0482DA00BE8CC2 /* continus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA025B41C0482DA00BE8CC2 /* continus */ = {
+			isa = PBXGroup;
+			children = (
+				BCBB738C1C0DD9B000362741 /* fftw3.h */,
+				BCBB738D1C0DD9B000362741 /* MFCC.cpp */,
+				BCBB738E1C0DD9B000362741 /* MFCC.h */,
+				BCBB73901C0DDA1900362741 /* readwave.cpp */,
+				BCBB73911C0DDA1900362741 /* readwave.h */,
+				BCBB738B1C0DD98800362741 /* portaudio.h */,
+				BCBB73881C0DD88300362741 /* dtw_continuous.cpp */,
+				BCBB73891C0DD88300362741 /* dtw_continuous.h */,
+				BCD9034D1C04B61E00361838 /* main.cpp */,
+			);
+			path = continus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA025B11C0482DA00BE8CC2 /* continus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA025B91C0482DA00BE8CC2 /* Build configuration list for PBXNativeTarget "continus" */;
+			buildPhases = (
+				BCA025AE1C0482DA00BE8CC2 /* Sources */,
+				BCA025AF1C0482DA00BE8CC2 /* Frameworks */,
+				BCA025B01C0482DA00BE8CC2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = continus;
+			productName = continus;
+			productReference = BCA025B21C0482DA00BE8CC2 /* continus */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA025AA1C0482DA00BE8CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "郭首彦";
+				TargetAttributes = {
+					BCA025B11C0482DA00BE8CC2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = BCA025AD1C0482DA00BE8CC2 /* Build configuration list for PBXProject "continus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCA025A91C0482DA00BE8CC2;
+			productRefGroup = BCA025B31C0482DA00BE8CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA025B11C0482DA00BE8CC2 /* continus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA025AE1C0482DA00BE8CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBB73921C0DDA1900362741 /* readwave.cpp in Sources */,
+				BCBB738F1C0DD9B000362741 /* MFCC.cpp in Sources */,
+				BCBB738A1C0DD88300362741 /* dtw_continuous.cpp in Sources */,
+				BCD9034F1C04B61E00361838 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCA025B71C0482DA00BE8CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCA025B81C0482DA00BE8CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCA025BA1C0482DA00BE8CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/guo/Documents/speech/portaudio/lib/.libs,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCA025BB1C0482DA00BE8CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/guo/Documents/speech/portaudio/lib/.libs,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA025AD1C0482DA00BE8CC2 /* Build configuration list for PBXProject "continus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA025B71C0482DA00BE8CC2 /* Debug */,
+				BCA025B81C0482DA00BE8CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA025B91C0482DA00BE8CC2 /* Build configuration list for PBXNativeTarget "continus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA025BA1C0482DA00BE8CC2 /* Debug */,
+				BCA025BB1C0482DA00BE8CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA025AA1C0482DA00BE8CC2 /* Project object */;
+}

@@ -1,0 +1,4 @@
+Dear all, this is the dataset for ASR class. Thank you all for the contribution to this dataset.
+The dataset can be divided into two parts: training part and testing part.
+In the training part, we have 440 templates, from digit zero to nine. You can use all or part of them as your training data.
+And in the testing dataset, I random choose 40 samples from all your submission.  All 40 samples in the testing dataset should be used to evaluate your system. 

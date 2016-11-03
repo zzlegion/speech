@@ -1,0 +1,78 @@
+﻿Build started 1/24/2016 11:01:01 PM.
+     1>Project "C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\continuous_bptbl\continuous_bptbl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\continuous.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt GuassianModel.cpp HmmModel.cpp LexTree.cpp main.cpp MfccExtractor.cpp readwave.cpp Recognizer.cpp recorder.cpp
+         recorder.cpp
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\readwave.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\readwave.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>recorder.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>recorder.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+     1>recorder.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>recorder.cpp(167): warning C4101: 'outputParameters' : unreferenced local variable
+         Recognizer.cpp
+     1>Recognizer.cpp(206): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Recognizer.cpp(215): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Recognizer.cpp(228): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Recognizer.cpp(259): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Recognizer.cpp(321): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Recognizer.cpp(325): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Recognizer.cpp(331): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Recognizer.cpp(332): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         readwave.cpp
+     1>readwave.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\readwave.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>readwave.cpp(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>readwave.cpp(54): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>readwave.cpp(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>readwave.cpp(68): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>readwave.cpp(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>readwave.cpp(89): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>readwave.cpp(98): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>readwave.cpp(111): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>readwave.cpp(127): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>readwave.cpp(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>readwave.cpp(164): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>readwave.cpp(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>readwave.cpp(191): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+         MfccExtractor.cpp
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\readwave.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         main.cpp
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\readwave.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\readwave.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         LexTree.cpp
+         HmmModel.cpp
+         GuassianModel.cpp
+         Generating Code...
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\guassianmodel.cpp(154): warning C4700: uninitialized local variable 'S' used
+     1>c:\users\chrisding\desktop\speech_ta\hw5\fangwei\fangwei\code\continuous_bptbl\guassianmodel.cpp(154): warning C4700: uninitialized local variable 'V2' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\x64\Debug\continuous.exe" /INCREMENTAL /NOLOGO "libfftw3f-3.lib" "libfftw3-3.lib" "libfftw3l-3.lib" portaudio_x64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\continuous.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\x64\Debug\continuous.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\x64\Debug\continuous.lib" /MACHINE:X64 x64\Debug\GuassianModel.obj
+         x64\Debug\HmmModel.obj
+         x64\Debug\LexTree.obj
+         x64\Debug\main.obj
+         x64\Debug\MfccExtractor.obj
+         x64\Debug\readwave.obj
+         x64\Debug\Recognizer.obj
+         x64\Debug\recorder.obj
+         LINK : C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\x64\Debug\continuous.exe not found or not built by the last incremental link; performing full link
+         continuous_bptbl.vcxproj -> C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\x64\Debug\continuous.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\x64\Debug\continuous.exe.manifest" /manifest x64\Debug\continuous.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\continuous.unsuccessfulbuild".
+         Touching "x64\Debug\continuous.lastbuildstate".
+     1>Done Building Project "C:\Users\Chrisding\Desktop\Speech_TA\HW5\Fangwei\fangwei\code\continuous_bptbl\continuous_bptbl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.10
